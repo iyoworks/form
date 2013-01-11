@@ -1,16 +1,16 @@
 {
-    "name": "iyoworks/form",
-    "description": "[PORTED] meido/form. A port of Laravel 3's Form class",
+    "name": "meido/form",
+    "description": "A port of Laravel 3's Form class",
     "authors": [
         {
-            "name": "Blessing Osakue",
-            "email": "blessing@iyoworks.com"
+            "name": "Joni Chandra",
+            "email": "joniliciously@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/routing": "dev-master",
-        "illuminate/support": "dev-master",
+        "illuminate/routing": "1.2.*",
+        "illuminate/support": "1.2.*",
         "meido/html": "1.0.*"
     },
     "require-dev": {
