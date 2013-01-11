@@ -15,21 +15,21 @@ class Form {
 
 	/**
 	 * The encoding to use
-	 * 
+	 *
 	 * @var string
 	 */
 	protected $encoding = 'utf-8';
 
 	/**
 	 * The HTML helper
-	 * 
+	 *
 	 * @var Meido\HTML\HTML
 	 */
 	protected $html;
 
-	public function __construct(UrlGenerator $url)
+	public function __construct(Application $app)
 	{
-		$this->html = new HTML($url);
+		$this->html = new HTML($app);
 	}
 
 	/**
