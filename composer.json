@@ -1,10 +1,10 @@
 {
-    "name": "meido/form",
-    "description": "A port of Laravel 3's Form class",
+    "name": "iyoworks/form",
+    "description": "[PORTED] meido/form. A port of Laravel 3's Form class",
     "authors": [
         {
-            "name": "Joni Chandra",
-            "email": "joniliciously@gmail.com"
+            "name": "Blessing Osakue",
+            "email": "blessing@iyoworks.com"
         }
     ],
     "require": {
